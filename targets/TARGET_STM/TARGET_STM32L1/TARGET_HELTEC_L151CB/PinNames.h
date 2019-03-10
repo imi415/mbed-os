@@ -163,7 +163,6 @@ typedef enum {
     LORA_DIO1       = PB_10,
     LORA_DIO2       = PB_11,
     LORA_DIO3       = PB_3,
-    LORA_DIO4       = NC,
 
     // Not connected
     NC = (int)0xFFFFFFFF

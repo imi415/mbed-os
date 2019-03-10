@@ -47,7 +47,7 @@
 
 /* Select the clock sources (other than HSI) to start with (0=OFF, 1=ON) */
 #define USE_PLL_HSE_EXTC (0) /* Use external clock */
-#define USE_PLL_HSE_XTAL (1) /* Use external xtal */
+#define USE_PLL_HSE_XTAL (0) /* Use external xtal */
 
 
 #if (USE_PLL_HSE_XTAL != 0) || (USE_PLL_HSE_EXTC != 0)

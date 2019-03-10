@@ -8,8 +8,8 @@
   *          is using in the C source code, usually in main.c. This file contains:
   *            - Configuration section that allows to select:
   *              - The STM32L1xx device used in the target application
-  *              - To use or not the peripheral’s drivers in application code(i.e. 
-  *                code will be based on direct access to peripheral’s registers 
+  *              - To use or not the peripheralï¿½s drivers in application code(i.e. 
+  *                code will be based on direct access to peripheralï¿½s registers 
   *                rather than drivers API), this option is controlled by 
   *                "#define USE_HAL_DRIVER"
   *  
@@ -80,9 +80,9 @@
   /* #define STM32L100xB  */   /*!< STM32L100C6, STM32L100R and STM32L100RB Devices */
   /* #define STM32L100xBA */   /*!< STM32L100C6-A, STM32L100R8-A and STM32L100RB-A Devices */
   /* #define STM32L100xC  */   /*!< STM32L100RC Devices */
-  /* #define STM32L151xB  */   /*!< STM32L151C6, STM32L151R6, STM32L151C8, STM32L151R8, STM32L151V8, STM32L151CB, STM32L151RB and STM32L151VB */
+     #define STM32L151xB       /*!< STM32L151C6, STM32L151R6, STM32L151C8, STM32L151R8, STM32L151V8, STM32L151CB, STM32L151RB and STM32L151VB */
   /* #define STM32L151xBA */   /*!< STM32L151C6-A, STM32L151R6-A, STM32L151C8-A, STM32L151R8-A, STM32L151V8-A, STM32L151CB-A, STM32L151RB-A and STM32L151VB-A */ 
-  #define STM32L151xC          /*!< STM32L151CC, STM32L151UC, STM32L151RC and STM32L151VC */
+  /* #define STM32L151xC  */   /*!< STM32L151CC, STM32L151UC, STM32L151RC and STM32L151VC */
   /* #define STM32L151xCA */   /*!< STM32L151RC-A, STM32L151VC-A, STM32L151QC and STM32L151ZC */
   /* #define STM32L151xD  */   /*!< STM32L151QD, STM32L151RD, STM32L151VD & STM32L151ZD */
   /* #define STM32L151xDX  */  /*!< STM32L151VD-X Devices */

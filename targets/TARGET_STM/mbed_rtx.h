@@ -62,6 +62,7 @@
 
 #elif (defined(TARGET_STM32F091RC) ||\
        defined(TARGET_STM32F410RB) ||\
+       defined(TARGET_STM32L151CB) ||\
        defined(TARGET_STM32L151CBA)||\
        defined(TARGET_STM32L151CC) ||\
        defined(TARGET_STM32L151RC) ||\

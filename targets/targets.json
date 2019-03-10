@@ -4274,7 +4274,7 @@
         },
         "supported_toolchains":["GCC_ARM"],
         "device_has_add":["ANALOGOUT", "FLASH", "MPU"],
-        "device_has_remove":["SERIAL_FC"],
+        "device_has_remove":["SERIAL_FC", "RTC"],
         "release_versions":["5"],
         "device_name": "STM32L151CB"
     },

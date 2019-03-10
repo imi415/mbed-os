@@ -24,13 +24,13 @@
 #include "stm32l1xx_ll_tim.h"
 #include "cmsis_nvic.h"
    
-#define TIM_MST      TIM6
-#define TIM_MST_IRQ  TIM6_IRQn
-#define TIM_MST_RCC  __TIM6_CLK_ENABLE()
-#define TIM_MST_DBGMCU_FREEZE  __HAL_DBGMCU_FREEZE_TIM6()
+#define TIM_MST      TIM4
+#define TIM_MST_IRQ  TIM4_IRQn
+#define TIM_MST_RCC  __TIM4_CLK_ENABLE()
+#define TIM_MST_DBGMCU_FREEZE  __HAL_DBGMCU_FREEZE_TIM4()
 
-#define TIM_MST_RESET_ON   __TIM6_FORCE_RESET()
-#define TIM_MST_RESET_OFF  __TIM6_RELEASE_RESET()
+#define TIM_MST_RESET_ON   __TIM4_FORCE_RESET()
+#define TIM_MST_RESET_OFF  __TIM4_RELEASE_RESET()
 
 #define TIM_MST_BIT_WIDTH  16 // 16 or 32
 

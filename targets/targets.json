@@ -4265,7 +4265,7 @@
         "inherits":["FAMILY_STM32"],
         "core": "Cortex-M3",
         "default_toolchain":"GCC_ARM",
-        "extra_labels_add":["STM32L1", "STM32L151CB"],
+        "extra_labels_add":["STM32L1", "STM32L151CB", "STM32L151xB"],
         "config": {
             "hse_value": {
                 "value": "24000000",

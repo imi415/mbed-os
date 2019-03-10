@@ -34,7 +34,7 @@
 
 #define TIM_MST_BIT_WIDTH  16 // 16 or 32
 
-#define TIM_MST_PCLK  1 // Select the peripheral clock number (1 or 2)
+#define TIM_MST_PCLK  2 // Select the peripheral clock number (1 or 2)
 
 
 #ifdef __cplusplus
